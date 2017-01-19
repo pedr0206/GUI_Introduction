@@ -1,0 +1,15 @@
+﻿<Window x:Class="Pretty_Hair_GUI_Introduction.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pretty_Hair_GUI_Introduction"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="160,105,0,0" VerticalAlignment="Top" Width="121" Click="button_Click" Height="32"/>
+        <Label x:Name="label" Content="Hello World:" HorizontalAlignment="Center" Height="27" Margin="160,59,236,0" VerticalAlignment="Top" Width="121" FontFamily="Impact"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="160,160,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="121" FontFamily="Impact"/>
+
+    </Grid>
+</Window>
